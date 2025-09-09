@@ -9,3 +9,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.clock{
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    gap: 10px;
+}
+.clock > div{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.clock div:nth-child(1){
+    width: 70px;
+}
